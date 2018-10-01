@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=KoHo:400,700');
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'KoHo', sans-serif;
+}
+
+h1{
+	display: none;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+
+.white{
+	padding: 100px 0px;
+	background-color: white;
+	color: grey;
+}
+
+.blue{
+	padding: 100px 0px;
+	background-color: rgb(77,151,213);
+	color: white;
+
+}
+
+.corse{
+	width: 1004px;
+	margin: 0 auto;
+}
+
+.corse div{
+	float: left;
+	width: 40%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+
+.corse:after{
+	clear: both;
+	display: block;
+	height: 0;
+	content: "";
+}
+
+.corse a{
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 10px;
+	text-decoration: none; 
+}
+
+.corse div img{
+	border-radius: 50%;
+	border: 1px solid #aaa;
+	padding: 10px;
+}
+
+
+.white div a{
+	background-color: rgb(77,151,213);
+	color: white; 
+}
+.white div a:hover{
+	background-color: lightblue;
+	text-decoration: underline; 
+}
+
+.blue div a{
+	background-color: white;
+	color: rgb(77,151,213); 
+}
+
+.blue div a:hover{
+	background-color: tomato;
+	text-decoration: underline;
+}
+
+h2, p {
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

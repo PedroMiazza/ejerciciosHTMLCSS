@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+body{
+	font-family: 'Rajdhani', sans-serif;
+}
+
+header>div{
+	height: 100vh;
+	font-size: 24px;
+	color: white;
+	float: left;
+	width: 25%;
+	position: relative;
+	cursor: pointer;
+}
+
+header>div hr{
+	border: 1px solid white;
+	position: absolute;
+	top:48%;
+	width: 100%;
+	display: none;
+}
+
+header div div small{
+	visibility: hidden;
+}
+
+header>div:hover div small{
+	visibility: visible;
+}
+
+header>div:hover hr{
+	display: block;
+} 
+
+header div div{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+header .rojo{
+	background-color: #da375a;
+}
+
+header .naranja{
+	background-color: #e37a78;
+}
+
+header .amarillo{
+	background-color: #f1cba3;
+}
+
+header .verde{
+	background-color: #9dba95;
+}
+
+header .rojo p{
+	background-color: #da375a;
+	padding:20px 40px; 
+}
+
+header .naranja p{
+	background-color: #e37a78;
+	padding:20px 40px; 
+}
+
+header .amarillo p{
+	background-color: #f1cba3;
+	padding:20px 40px; 
+}
+
+
+header .verde p{
+	background-color: #9dba95;
+	padding:20px 40px; 
+}

@@ -1,0 +1,29 @@
+body{
+	background-color: grey;
+}
+
+.tablero{
+	width: 640px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.tablero .linea div{
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+
+.tablero .linea:after{
+	clear:both;
+	content: "";
+	display: block;
+	height: 0px;
+}
+
+.tablero .linea:nth-child(odd) div:nth-child(even), 
+.tablero .linea:nth-child(even) div:nth-child(odd) {
+	background-color: black;
+}
+
+
